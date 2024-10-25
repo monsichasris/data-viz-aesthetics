@@ -1,0 +1,59 @@
+@import url("https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css");
+@import url("https://use.typekit.net/rad2fyj.css");
+
+body {
+    font-family: "interstate", sans-serif;
+    background: #eff2e9;
+    color: #333333;
+    padding: 40px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+footer {
+    /* flex btween the bottom of the screen */
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+h1 {
+    font-weight: 700;
+    line-height: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.guide-text{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.foot{
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #777777;
+}
+
+.sign{
+    background-color: #2d9c40;
+    padding: 16px;
+    stroke: white;
+    stroke-width: 4px;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    animation: colorChange 2s infinite;
+}
+
+@keyframes colorChange {
+    0% {background-color: #2d9c40;}
+    50% {background-color: #2d9c40;}
+    51% {background-color: #7a543d; }
+    100% {background-color: #7a543d;}
+}
