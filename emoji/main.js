@@ -1,7 +1,3 @@
-
-// import "./style.css";
-// import * as d3 from "d3";
-
 // load first dataset for chart 1 and 2
 const data1 = await d3.csv("data/emoji_usage.csv");
 console.log("⬇ Dataset 1 ⬇");
