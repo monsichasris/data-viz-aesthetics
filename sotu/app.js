@@ -1,7 +1,3 @@
-// import * as d3 from "d3";
-// import { RiTa as rita } from "rita";
-
-
 // Function to fetch and process a single file
 const fetchAndProcessFile = async (filePath) => {
   const text = await d3.text(filePath);
