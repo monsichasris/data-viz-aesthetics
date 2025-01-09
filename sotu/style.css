@@ -1,0 +1,115 @@
+@import url("https://use.typekit.net/rad2fyj.css");
+
+body {
+  margin: 0;
+  font-family: "scale-variable", sans-serif;
+  font-variation-settings: 'wdth' 100, 'wght' 400;
+  background: #f7f7f7;
+  color: #333333;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  color: #333333;;
+  background-color: #f7f7f7;
+  position: fixed;
+  width: 100vw;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  padding-top: 8px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  font-variation-settings: 'wdth' 100, 'wght' 600;
+}
+
+p {
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+span{
+  font-size: 0.8rem;
+  color: blue;
+}
+
+/* #progress-bar {
+  width: 400px;
+  margin: 16px 40px;
+  overflow-x: scroll;
+  white-space: nowrap;
+} */
+
+
+#app {
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.president{
+  font-variation-settings: 'wdth' 100, 'wght' 600;
+}
+
+.year{
+  font-size: 0.8rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  height: 88vh;
+  gap: 2rem;
+}
+
+.word-stack {
+  align-items: center; /* Center align words horizontally */
+  font-family: "climate-crisis-variable", sans-serif;
+  margin: 0;
+  height: .8em;
+  line-height: .8em;
+}
+
+.legend{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#chart {
+  /* display in modal popup center of the screen */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9);
+  border: #333333;
+  border-radius: 8px;
+  box-shadow: 8px rgba(0, 0, 0, 0.2);
+}
+
+.tooltip {
+  position: absolute;
+  text-align: left;
+  padding: 8px;
+  font-size: 12px;
+  background: #333333;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+}
+

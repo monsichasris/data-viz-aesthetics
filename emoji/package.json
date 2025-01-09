@@ -1,0 +1,19 @@
+{
+  "name": "week-2-coding-lab",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "gsap": "^3.12.5"
+  }
+}

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DVIA-Final Project</title>
+
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://use.typekit.net/clq2ion.css" />
+    
+  </head>
+  <body>
+    <section id="intro">
+      <img src="assets/chatboxS.svg" alt="" style="position: absolute; top: 12%; left: 24%;"/>
+      <img src="assets/chatboxM.svg" alt="" style="position: absolute; top: 40%; left: 8%;"/>
+      <img src="assets/chatboxL.svg" alt="" style="position: absolute; top: 16%; left: 48%;"/>
+
+      <img src="assets/chatboxS.svg" alt="" style="position: absolute; top: 24%; left: 80%;"/>
+      <img src="assets/chatboxM.svg" alt="" style="position: absolute; top: 48%; left: 68%; transform: scaleX(-1);"/>
+      <img src="assets/chatboxL.svg" alt="" style="position: absolute; top: 64%; left: 40%;"/>
+
+      <img src="assets/chatboxS.svg" alt="" style="position: absolute; top: 80%; left: 16%; transform: scaleX(-1);"/>
+      <img src="assets/chatboxS.svg" alt="" style="position: absolute; top: 88%; left: 70%;"/>
+      
+      <h2>Explore <span>Emoji</span> Usage by Generation, Context, and Emotion</h2>
+      <img src="assets/emoji_title.png" alt="Emoji" height="200px" style="z-index: 100;"/>
+      <text style="margin-bottom: 80px;">⬇️ Scroll Down ⬇️</text>
+    </section>
+
+    <section class="chart">
+      <div id="chart-1"></div>
+      <div class="textbox">
+        <h2><span>Emoji</span> Generation</h2>
+        <p>From a sample dataset of 5,000 users, emoji usage was analyzed across multiple social media platforms, categorized by demographics and generational groups.</p>
+        <div id="legend-1"></div>
+      </div>
+    </section>
+
+    <section class="chart">
+      <div id="chart-2"></div>
+      <div class="textbox">
+        <h2><span>Emoji</span> Context in Generation</h2>
+        <p>In each generation, emojis can have different meanings. Here are the top 5 emojis for each context of use, ranked and sized according to their frequency of use.</p>
+        <p>👆 Hover over each emoji to see the context of use across the age and context</p>
+    </section>
+
+    <section class="chart">
+      <div id="chart-3"></div>
+      <div class="textbox">
+        <h2><span>Emoji</span> Speak More Than One Emotion</h2>
+        <p>Another dataset on emoji reveals that a single emoji can convey multiple emotions. Here is the top-ranking emoji for each emotion, demonstrating their mixed emotional.</p>
+        <p>👆 Hover over each chart to see the scores</p>
+      </div>
+    </section> 
+
+    <section class="chart">
+      <div id="chart-4"></div>
+      <div class="textbox">
+        <h2>Mapping <span>Emoji</span> Across Emotional Dimensions</h2>
+        <p>Some emojis share emotions or convey multiple sentiments simultaneously. Let's explores the relationships between them.</p>
+        <p>👆 Hover on emoji to view scores or select dropdown to change emotion on the axis</p>
+      </div>
+    </section>
+    
+    <section id="outro">
+      <h2>Thank you for exploring the <span>emojis</span>!</h2>
+      <img src="assets/emoji_thanks.png" alt="Emoji" height="160px" style="z-index: 100;"/>
+      <div id="dataset">
+        <a>🗂️ Datasets 🗂️</a>
+        <a href="https://www.kaggle.com/datasets/waqi786/emoji-trends-dataset/data" target="_blank" rel="noopener noreferrer">Emojis social media trends</a>
+        <a href="https://github.com/abushoeb/EmoTag" target="_blank" rel="noopener noreferrer">Emojis emotion and sentiments</a>
+      </div>
+    <button style="margin-bottom: 80px; background: none; color: white; border: none; text-decoration: none; cursor: pointer; font-size: 14px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">⬆️ Back to top ⬆️</button>
+    </section>  
+
+    <script type="module" src="main.js" async></script>
+  </body>
+  <footer>
+    <a>Data Visualization and Information Aesthetic | MS Data Visualization, Parsons School of Design</a>
+    <a>Monsicha Srisuantang © 2024</a>
+  </footer>
+</html>

@@ -1,0 +1,98 @@
+body {
+    font-family: "work-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    background: white;
+    color: teal;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+    margin: 0;
+}
+
+h1 {
+    font-family: "ltr-beosans-hard-r23-bold", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;  
+    margin: 0;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0.1;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+}
+
+#legend {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin: 0;
+    align-items: center;
+}
+
+#app {
+    /* inset: 0; */
+    overflow: auto;
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#map {
+    height: 82vh;
+    bottom: 0;
+}
+
+#info {
+    position: fixed;
+    bottom: 16px;
+    left: 16px;
+    background: rgba(255, 255, 255, 0.8);
+    color: teal;
+    padding: 16px;
+    border-radius: 4px;
+    z-index: 1000;
+    display: none;
+    font-size: 1rem;
+}
+
+.leaflet-tile-container img {
+    width: 256.5px !important;
+    height: 256.5px !important;
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 14px;
+    font-family: "work-sans", sans-serif;
+}
+
+.legend-depth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.legend-depth{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
