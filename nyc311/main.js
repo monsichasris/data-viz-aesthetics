@@ -182,7 +182,7 @@ bars_layer
       .attr('stroke-dasharray', '4,2')
     } else if (d3.select(this.parentNode).datum().key === 'Street Sign - Damaged') {
       svg.append('image')
-        .attr('xlink:href', '/texture.jpg')
+        .attr('xlink:href', 'texture.jpg')
         .attr('x', rect.attr('x'))
         .attr('y', rect.attr('y'))
         .attr('width', rect.attr('width'))
