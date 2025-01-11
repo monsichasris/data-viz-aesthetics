@@ -281,7 +281,7 @@ L.Control.ResetButton = L.Control.extend({
 
     const icon = button
       .append("img")
-      .attr("src", "/images/refresh-icon.svg")
+      .attr("src", "images/refresh-icon.svg")
       .style("transform", "scale(0.5)");
 
     button.on("click", (event) => {
