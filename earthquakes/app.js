@@ -29,7 +29,7 @@ const tileLayer = L.tileLayer(
 
 
 // fetch data csv
-const earthquakesCSV = await d3.csv("/data/all_month.csv");
+const earthquakesCSV = await d3.csv("data/all_month.csv");
 console.log(earthquakesCSV);
 
 // extract the last word from the place
@@ -47,7 +47,7 @@ const earthquakesLayer = L.layerGroup();
 
 
 // fetch geojson data
-const geojson = await d3.json("/data/world_countries.geojson");
+const geojson = await d3.json("data/world_countries.geojson");
 
 // Group earthquakes by last word (Country)
 const geojsonCountries = new Set(geojson.features.map(f => f.properties.name));
