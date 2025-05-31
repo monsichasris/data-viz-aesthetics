@@ -1,7 +1,7 @@
 // Function to fetch and process a single file
+/* global RiTa */
 const fetchAndProcessFile = async (filePath) => {
   const text = await d3.text(filePath);
-
   const tokenized = RiTa.tokenize(text).filter((d) => {
     return RiTa.isStopWord(d) === false && RiTa.isPunct(d) === false && d !== '\n' && RiTa.isNoun(d) === true && d.toLowerCase() !== 'applause';
   });
